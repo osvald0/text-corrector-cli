@@ -1,0 +1,23 @@
+{
+  "name": "text-corrector-cli",
+  "version": "0.1.0",
+  "description": "Terminal CLI to correct text with ChatGPT and optional tone control",
+  "license": "GPL-3.0-or-later",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "bin": {
+    "text-corrector": "bin/text-corrector.js",
+    "ft": "bin/text-corrector.js"
+  },
+  "scripts": {
+    "start": "node bin/text-corrector.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "commander": "^13.1.0",
+    "openai": "^4.86.1"
+  }
+}
