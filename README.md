@@ -52,7 +52,7 @@ npm link
 Now you can run:
 
 ```bash
-ft "can u send me the report today"
+tc "can u send me the report today"
 ```
 
 ## Run without global install
@@ -71,27 +71,24 @@ npm unlink -g text-corrector-cli
 
 ## Usage
 
-You can use either command:
-
-- `ft` (short alias)
-- `text-corrector` (full name)
+Use the `tc` command:
 
 ### Tone
 
 ```bash
-ft "please check this note" --tone formal
+tc "please check this note" --tone formal
 ```
 
 ### Stdin
 
 ```bash
-echo "hey team can u review this" | ft --tone professional
+echo "hey team can u review this" | tc --tone professional
 ```
 
 ### JSON
 
 ```bash
-ft "i am writing to ask for update" --tone concise --json
+tc "i am writing to ask for update" --tone concise --json
 ```
 
 ## Options

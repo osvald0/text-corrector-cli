@@ -25,8 +25,8 @@ program
     "after",
     `
 Examples:
-  $ text-corrector "i has a meeting tomorrow at 9am"
-  $ echo "can u review this" | text-corrector --tone professional
+  $ tc "i has a meeting tomorrow at 9am"
+  $ echo "can u review this" | tc --tone professional
 `
   )
   .action(async (textParts, options) => {

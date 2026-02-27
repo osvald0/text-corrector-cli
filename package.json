@@ -7,8 +7,7 @@
   "main": "src/index.js",
   "exports": "./src/index.js",
   "bin": {
-    "text-corrector": "bin/text-corrector.js",
-    "ft": "bin/text-corrector.js"
+    "tc": "bin/text-corrector.js"
   },
   "scripts": {
     "start": "node bin/text-corrector.js"

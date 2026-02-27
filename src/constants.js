@@ -1,4 +1,4 @@
-export const APP_NAME = "text-corrector";
+export const APP_NAME = "tc";
 export const DEFAULT_TONE = "neutral";
 export const DEFAULT_MODEL = "gpt-4.1-mini";
 
